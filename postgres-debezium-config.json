@@ -5,7 +5,7 @@
 		"database.hostname":"localhost",
 		"database.port":"5432",
 		"database.user":"debezium",
-		"database.password":"${file:/home/anees/secrets.properties:postgres_passwoord}",
+		"database.password":"${file:/home/anees/secrets.properties:postgres_password}",
 		"database.dbname":"company",
 		"plugin.name":"pgoutput",
 		"pulication.name":"dbz_publication",

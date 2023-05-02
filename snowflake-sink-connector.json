@@ -2,8 +2,8 @@
 	"name":"snowflake-sink-connector",
 	"config": {
 		"connector.class":"com.snowflake.kafka.connector.SnowflakeSinkConnector",
-		"topics":"snowflake.public.address, snowflake.public.customer",
-		"snowflake.topic2table.map":"snowflake.public.address:address, snowflake.public.customer:customer",
+		"topics":"snowflake.public.bank",
+		"snowflake.topic2table.map":"snowflake.public.bank:bank",
 		"snowflake.url.name":"${file:/home/anees/secrets.properties:snowflake_url}",
 		"snowflake.user.name":"${file:/home/anees/secrets.properties:snowflake_user_name}",
 		"snowflake.private.key":"${file:/home/anees/secrets.properties:snowflake_private_key}",
